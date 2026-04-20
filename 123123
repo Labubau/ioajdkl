@@ -24,7 +24,7 @@ local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 local Window = Rayfield:CreateWindow({
     Name = "🥚 MM2 AUTO FARM | SCRIPT BY Wizupq",
     LoadingTitle = "MM2 SCRIPT",
-    LoadingSubtitle = "made by meentoz",
+    LoadingSubtitle = "made by wizupq",
     ConfigurationSaving = { Enabled = false },
     Discord = {
         Enabled = true,
@@ -38,7 +38,7 @@ local MainTab = Window:CreateTab("🎄 Main")
 local AntiTab = Window:CreateTab("🛡️ Anti")
 
 MainTab:CreateToggle({
-    Name = "❄️ Auto Farm Coins",
+    Name = "🥚     Auto Farm Coins",
     CurrentValue = false,
     Callback = function(v)
         autoFarmEnabled = v
@@ -183,6 +183,6 @@ end)
 
 Rayfield:Notify({
     Title = "Loaded",
-    Content = "Winter AutoFarm ready",
+    Content = "Easter AutoFarm ready",
     Duration = 4
 })
